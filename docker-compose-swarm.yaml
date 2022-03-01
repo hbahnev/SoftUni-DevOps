@@ -1,9 +1,9 @@
 version: "3.8"
 services:
     web:
-        image: hbahnev/bgapp-web2
+        image: hbahnev/bgapp-web
         deploy:
-            replicas: 3
+            replicas: 5
         ports:
             - 8080:80
         volumes:
